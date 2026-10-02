@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hambal-emblem.svg" width="180" alt="Hambal Corp">
+  <img src="https://raw.githubusercontent.com/hambal-corp/.github/main/profile/assets/hambal-emblem.png" width="180" alt="Hambal Corp">
 </p>
 
 <h1 align="center">Hambal Corp</h1>
