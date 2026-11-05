@@ -16,7 +16,7 @@ jobs:
       (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@claude')) ||
       (github.event_name == 'issues' && github.event.action == 'labeled' && github.event.label.name == 'claude') ||
       (github.event_name == 'issues' && github.event.action != 'labeled' && (contains(github.event.issue.body, '@claude') || contains(github.event.issue.title, '@claude')))
-    runs-on: ubuntu-latest
+    runs-on: grand # self-hosted, on the cluster (gitops infrastructure/github-runners)
     permissions:
       contents: write
       pull-requests: write
